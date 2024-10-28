@@ -9,7 +9,7 @@ use Vertuoza\Api\Graphql\Context\RequestContext;
 use Vertuoza\Api\Graphql\Types;
 class CollaboratorQuery
 {
-    static function get()
+    static function get(): array
     {
         return [
             'collaboratorById' => [
